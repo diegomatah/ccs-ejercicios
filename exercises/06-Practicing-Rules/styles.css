@@ -1,21 +1,25 @@
+/* add your styles here */
 body {
-	background-image: url(../../.learn/assets/background-vertical.jpg?raw=true);
-	background-repeat: repeat-y;
-	font-family: "Times New Roman", Times, serif;
+	background: url("../../.learn/assets/background-vertical.jpg?raw=true") repeat-y;
+	font-family: "Times New Roman";
 	padding-left: 20px;
 }
+
+#id1 {
+	background: rgba(255, 255, 255, 0.2);
+	padding: 5px;
+}
+
 h1 {
-	font-family: Courier !important;
+	font-family: "Courier";
 	color: red;
 }
+
 h2 {
 	text-decoration: underline;
 }
-#id1 {
-	background-color: rgba(0, 2);
-	padding: 5px;
-}
-a {
+
+a:hover {
 	color: green;
 	text-decoration: none;
 }
