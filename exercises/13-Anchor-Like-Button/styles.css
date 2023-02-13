@@ -5,10 +5,10 @@
 	border: 1px solid #ffffff;
 	background-color: green;
 	text-decoration: none;
-	color: rgba(255, 255, 255, 0.377);
+	color: rgb(255, 255, 255);
 }
 
 .orange-btn:hover {
 	/*YOUR CODE HERE FOR THE HOVER STATE*/
-	background: #4e00cc;
+	background: #00becc;
 }
